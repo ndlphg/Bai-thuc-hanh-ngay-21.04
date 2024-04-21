@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Toggle DropDown Menu</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  	$(".hamburger_btn").click(function(){
+			  $(this).toggleClass("active");
+			  $(".menu").toggleClass("active");
+			});
+		});
+    /*2*/
+    $(document).ready(function(){
+		  	$(".hamburger_btn-2").click(function(){
+			  $(this).toggleClass("active-2");
+			  $(".menu-2").toggleClass("active-2");
+			});
+		});
+    /*3*/
+    $(document).ready(function(){
+		  	$(".hamburger_btn-3").click(function(){
+			  $(this).toggleClass("active-3");
+			  $(".menu-3").toggleClass("active-3");
+			});
+		});
+    /*4*/
+    $(document).ready(function(){
+		  	$(".hamburger_btn-4").click(function(){
+			  $(this).toggleClass("active-4");
+			  $(".menu-4").toggleClass("active-4");
+			});
+		});
+	</script>
+</head>
+<body>
+	
+<div class="wrapper">
+  <div class="container">
+    <div class="hamburger_btn">
+      <span>Trang chủ</span>
+    </div>
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Đồ họa</a></li>
+        <li><a href="#">Web</a></li>
+        <li><a href="#">Mạng</a></li>
+      </ul>
+    </div>
+  </div>
+  <!---2-->
+  <div class="container">
+    <div class="hamburger_btn-2">
+      <span>Đào tạo</span>
+    </div>
+
+    <div class="menu-2">
+      <ul>
+        <li><a href="#">Đồ họa</a></li>
+        <li><a href="#">Web</a></li>
+        <li><a href="#">Mạng</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--3-->
+  <div class="container">
+    <div class="hamburger_btn-3">
+      <span>Đào tạo</span>
+    </div>
+
+    <div class="menu-3">
+      <ul>
+        <li><a href="#">Đồ họa</a></li>
+        <li><a href="#">Web</a></li>
+        <li><a href="#">Mạng</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--4-->
+  <div class="container">
+    <div class="hamburger_btn-4">
+      <span>Đào tạo</span>
+    </div>
+
+    <div class="menu-4">
+      <ul>
+        <li><a href="#">Đồ họa</a></li>
+        <li><a href="#">Web</a></li>
+        <li><a href="#">Mạng</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

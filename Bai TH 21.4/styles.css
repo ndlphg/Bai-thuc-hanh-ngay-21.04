@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background: #757575;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+
+ 
+}
+
+.wrapper .container{
+  width: 200px;
+  }
+
+.wrapper .hamburger_btn{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 0 10px 0px;
+  border: 3px solid black;
+  position: relative;
+  cursor: pointer;
+  background-color: black;
+  color: white; 
+}
+
+.wrapper .hamburger_btn > div{
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  background: black;
+  border-radius: 50px;
+  transition: all 0.3s linear;
+}
+
+
+
+.wrapper .container .menu{
+  width: 180px;
+  height: auto;
+  margin: 0 auto;
+  background: black;
+  position: relative;
+  opacity: 0;
+  top: -10px;
+  transition: all 0.5s linear;
+}
+
+.wrapper .container .menu ul li{
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+}
+
+.wrapper .container .menu ul li a{
+  padding: 10px;
+  font-size: 12px;
+  color: #757575;
+  display: block;
+  transition: all 0.2s linear;
+}
+
+.wrapper .container .menu ul li:hover{
+  background: blue;
+}
+
+.wrapper .container .menu ul li:hover a{
+  color:#fff;
+}
+.wrapper .container .menu.active{
+  opacity: 1;
+  top: 0px;
+}
+
+/*2*/
+.wrapper .hamburger_btn-2{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 0 10px 0px;
+  border: 3px solid black;
+  position: relative;
+  cursor: pointer;
+  background-color: black;
+  color: white; 
+}
+
+.wrapper .hamburger_btn-2 > div{
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  background: black;
+  border-radius: 50px;
+  transition: all 0.3s linear;
+}
+
+
+
+.wrapper .container .menu-2{
+  width: 180px;
+  height: auto;
+  margin: 0 auto;
+  background: black;
+  position: relative;
+  opacity: 0;
+  top: -10px;
+  transition: all 0.5s linear;
+}
+
+.wrapper .container .menu-2 ul li{
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+}
+
+.wrapper .container .menu-2 ul li a{
+  padding: 10px;
+  font-size: 12px;
+  color: #757575;
+  display: block;
+  transition: all 0.2s linear;
+}
+
+.wrapper .container .menu-2 ul li:hover{
+  background: blue;
+}
+
+.wrapper .container .menu-2 ul li:hover a{
+  color:#fff;
+}
+.wrapper .container .menu-2.active-2{
+  opacity: 1;
+  top: 0px;
+}
+/*3*/
+.wrapper .hamburger_btn-3{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 0 10px 0px;
+  border: 3px solid black;
+  position: relative;
+  cursor: pointer;
+  background-color: black;
+  color: white; 
+}
+
+.wrapper .hamburger_btn-3 > div{
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  background: black;
+  border-radius: 50px;
+  transition: all 0.3s linear;
+}
+
+
+
+.wrapper .container .menu-3{
+  width: 180px;
+  height: auto;
+  margin: 0 auto;
+  background: black;
+  position: relative;
+  opacity: 0;
+  top: -10px;
+  transition: all 0.5s linear;
+}
+
+.wrapper .container .menu-3 ul li{
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+}
+
+.wrapper .container .menu-3 ul li a{
+  padding: 10px;
+  font-size: 12px;
+  color: #757575;
+  display: block;
+  transition: all 0.2s linear;
+}
+
+.wrapper .container .menu-3 ul li:hover{
+  background: blue;
+}
+
+.wrapper .container .menu-3 ul li:hover a{
+  color:#fff;
+}
+.wrapper .container .menu-3.active-3{
+  opacity: 1;
+  top: 0px;
+}
+/*3*/
+.wrapper .hamburger_btn-4{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 0 10px 0px;
+  border: 3px solid black;
+  position: relative;
+  cursor: pointer;
+  background-color: black;
+  color: white; 
+}
+
+.wrapper .hamburger_btn-4 > div{
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  background: black;
+  border-radius: 50px;
+  transition: all 0.3s linear;
+}
+
+
+
+.wrapper .container .menu-4{
+  width: 180px;
+  height: auto;
+  margin: 0 auto;
+  background: black;
+  position: relative;
+  opacity: 0;
+  top: -10px;
+  transition: all 0.5s linear;
+}
+
+.wrapper .container .menu-4 ul li{
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+}
+
+.wrapper .container .menu-4 ul li a{
+  padding: 10px;
+  font-size: 12px;
+  color: #757575;
+  display: block;
+  transition: all 0.2s linear;
+}
+
+.wrapper .container .menu-4 ul li:hover{
+  background: blue;
+}
+
+.wrapper .container .menu-4 ul li:hover a{
+  color:#fff;
+}
+.wrapper .container .menu-4.active-4{
+  opacity: 1;
+  top: 0px;
+}
